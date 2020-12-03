@@ -31,7 +31,7 @@ jobs:
         # Start Checkin
         WorkWeiBot="${{ secrets.WWBOT }}"
         DingDingBot="${{ secrets.DDBOT }}"
-        SCKEY="${{ SCU125738T2fbf74bf77fddc06982b63ba59acea2a5fc832cb894a4 }}"
+        SCKEY="${{ secrets.SCU125738T2fbf74bf77fddc06982b63ba59acea2a5fc832cb894a4 }}"
 
         function WorkWei()
         {
