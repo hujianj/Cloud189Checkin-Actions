@@ -31,7 +31,7 @@ jobs:
         # Start Checkin
         WorkWeiBot="${{ secrets.WWBOT }}"
         DingDingBot="${{ secrets.DDBOT }}"
-        SCKEY="${{ secrets.SCU125738T2fbf74bf77fddc06982b63ba59acea2a5fc832cb894a4 }}"
+        SCKEY="${{ secrets.SCKEY }}"
 
         function WorkWei()
         {
@@ -64,7 +64,7 @@ jobs:
         function FTQQ()
         {
           echo -n "Server酱："
-          url="https://sc.ftqq.com/SCU125738T2fbf74bf77fddc06982b63ba59acea2a5fc832cb894a4.send"
+          url="https://sc.ftqq.com/${SCKEY}.send"
           data="`date "+%F %T %A"`\n$2"
           n='
         '
